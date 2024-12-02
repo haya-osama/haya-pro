@@ -1,0 +1,376 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navbar Styles */
+#navbar {
+    background-color: #333;
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 100;
+}
+
+#navbar h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+#navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+#navbar nav ul li {
+    margin-left: 20px;
+}
+
+#navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#navbar nav ul li a:hover {
+    color: #ff6347;
+}
+
+/* Header Styles */
+header {
+    background-image: url('https://decorasultan.com/wp-content/uploads/2024/07/hmimda_59726_Flower_shop_decoration_ideas_6b452a98-ba6b-45db-b06c-f36550424539.webp');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+header .primary-text {
+    color: #ff6347;
+}
+
+header p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+header .btn {
+    padding: 10px 30px;
+    font-size: 18px;
+    background-color: #ff6347;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background-color 0.3s;
+}
+
+header .btn:hover {
+    background-color: #e55347;
+}
+
+/* About Section Styles */
+/* About Section Styles */
+#about {
+    background-color: white;
+    padding: 60px 20px;
+    text-align: left;  /* Align text to the left */
+}
+
+#about .contener {
+    max-width: 1200px;
+    margin: 0 auto;  /* Center the content horizontally */
+}
+
+#about .title h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#about .title p {
+    font-size: 18px;
+    color: #777;
+}
+
+#about .about-content {
+    display: flex;
+    justify-content: flex-start;  /* Align items from the left */
+    align-items: flex-start;  /* Align items from the top */
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+#about .about-content div {
+    flex: 1;
+    margin: 20px;
+    text-align: left;  /* Ensure text inside div is left-aligned */
+}
+
+#about .about-content img {
+    width: 48%;  
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    display: inline-block; 
+}
+
+/* Adjusting the button style */
+#about .btn-secondary {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#about .btn-secondary:hover {
+    background-color: #e55347;
+}
+
+/* Special Offers Section */
+/* Offers Section Styles */
+#offers {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: left;  /* محاذاة النص إلى اليسار */
+}
+
+#offers .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#offers .title h2 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#offers .title p {
+    font-size: 18px;
+    color: #777;
+}
+
+#offers .offers-items {
+    display: flex;
+    justify-content: flex-start;  /* محاذاة العناصر إلى اليسار */
+    align-items: flex-start;  /* محاذاة العناصر من الأعلى */
+    flex-wrap: wrap;
+    gap: 20px;  /* مسافة بين العناصر */
+    margin-top: 40px;
+}
+
+#offers .offers-items div {
+    flex: 1 1 calc(33% - 20px);  /* عرض العناصر بنسبة 33% مع ترك مسافة */
+    text-align: left;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+#offers .offers-items div:hover {
+    transform: translateY(-10px);  /* تأثير الحركة عند التمرير */
+}
+
+#offers .offers-items img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+#offers .offers-items h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#offers .offers-items p {
+    font-size: 16px;
+    color: #555;
+}
+
+#offers .primary-text {
+    color: #ff6347;
+    font-weight: bold;
+}
+
+#offers .offers-items del {
+    color: #aaa;
+    text-decoration: line-through;
+}
+
+/* تحسين مظهر الزر */
+#offers .btn {
+    background-color: #ff6347;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+#offers .btn:hover {
+    background-color: #e55347;
+}
+
+
+/* Contact Section Styles */
+/* Contact Section Styles */
+#contact {
+    background-color: #f9f9f9;
+    padding: 60px 20px;
+    text-align: left; /* محاذاة النصوص إلى اليسار */
+}
+
+#contact .continer {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact .contant-content {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+#contact .contact-info {
+    flex: 1 1 30%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact .contact-info div {
+    margin-bottom: 20px;
+}
+
+#contact .contact-info h3 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+#contact .contact-info p {
+    font-size: 16px;
+    color: #555;
+}
+
+#contact .contact-info i {
+    color: #ff6347; 
+    margin-right: 10px;
+}
+
+#contact form {
+    flex: 1 1 60%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#contact form input,
+#contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#contact form button {
+    width: 100%;
+    background-color: #ff6347;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact form button:hover {
+    background-color: #e55347; /* تغيير لون الزر عند التمرير */
+}
+
+/* Footer Styles */
+#footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+#footer a {
+    color: #ff6347;
+    text-decoration: none;
+}
+
+#footer a:hover {
+    text-decoration: underline;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    #navbar nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navbar nav ul li {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    #about .about-content {
+        flex-direction: column;
+    }
+
+    #offers .offers-items {
+        flex-direction: column;
+    }
+
+    #contact .contact-info {
+        flex-direction: column;
+    }
+}
